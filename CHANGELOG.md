@@ -1,5 +1,10 @@
 Change Log
 ----------
+## 2026.2.0 (2026-07-23)
+### Changed
+- Added support for IDE version 2026.2; this release requires IDE 2026.2 or later
+- Adapted editors and variable highlighting to platform changes in 2026.2 (lazy JSON parsing, light-file PSI rebuilds, and daemon highlighting behavior)
+
 ## 2026.1.3 (2026-05-12)
 ### Fixed
 - Fixed API import from source code aborting entirely when a single module's parser failed (e.g. due to bundled Kotlin plugin errors); affected modules are now skipped with a warning notification and the import continues for the rest
